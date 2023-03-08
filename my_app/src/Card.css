@@ -1,0 +1,24 @@
+.card-body {
+  background: rgb(4, 173, 98);
+  background: linear-gradient(
+    31deg,
+    rgba(4, 173, 98, 0.23301820728291311) 0%,
+    rgba(0, 0, 0, 0.26943277310924374) 27%,
+    rgba(0, 0, 0, 0.23862044817927175) 76%,
+    rgba(0, 200, 198, 0.3254551820728291) 100%
+  );
+  backdrop-filter: saturate(180%) blur(10px);
+}
+
+.card-image:hover {
+  transform: scale(1.2);
+}
+
+.card-img-container {
+  overflow: hidden;
+  filter: brightness(90%);
+}
+
+.cardlink:hover {
+  color: #04b678 !important;
+}
